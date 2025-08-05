@@ -15,13 +15,14 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { SidebarTrigger } from "./ui/sidebar";
 
 const Navbar = () => {
   const { setTheme } = useTheme();
 
   return (
-    <nav className="flex justify-between">
-      collabsebutton
+    <nav className="flex py-5 justify-between">
+      <SidebarTrigger />
       <div className="flex gap-3">
         <Link href="/dashboard">Dashboard</Link>
 
