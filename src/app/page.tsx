@@ -1,4 +1,6 @@
 import { AppChart } from "@/components/Appchart";
+import ChartAreaGradient from "@/components/areachart";
+import { ChartPieDonutText } from "@/components/Piechart";
 
 export default function Home() {
   return (
@@ -6,9 +8,14 @@ export default function Home() {
       <div className="bg-primary-foreground p-4 xl:col-span-2 ">
         <AppChart />
       </div>
-      <div className="bg-primary-foreground p-4 ">test</div>
-      <div className="bg-primary-foreground p-4  ">test3</div>
-      <div className="bg-primary-foreground p-4 sm:col-span-2 ">test</div>
+      <div className="bg-primary-foreground p-4 ">
+        <ChartPieDonutText />
+      </div>
+      <div className="bg-primary-foreground p-4  "></div>
+      <div className="bg-primary-foreground p-4 sm:col-span-2  ">
+        {" "}
+        <ChartAreaGradient />
+      </div>
       <div className="bg-primary-foreground p-4 xl:col-span-2  lg:col-span-1 ">
         test
       </div>

@@ -43,7 +43,7 @@ export function AppChart() {
   return (
     <>
       <h1 className="text-2xl font-bold mb-4">Total Revenue</h1>
-      <ChartContainer config={chartConfig} className="min-h-[90px] w-full">
+      <ChartContainer config={chartConfig} className="max-h-[300px] w-full">
         <BarChart accessibilityLayer data={chartData}>
           <CartesianGrid vertical={false} />
           <XAxis
