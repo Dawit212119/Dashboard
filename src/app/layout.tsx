@@ -47,9 +47,8 @@ export default async function RootLayout({
               className="gap-6 flex h-screen w-full
             "
             >
-              {" "}
               <AppSidebar />
-              <div className="w-full pr-[20px]">
+              <div className=" flex-1 pr-[20px]">
                 <Navbar />
                 {children}
               </div>{" "}
