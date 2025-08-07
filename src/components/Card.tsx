@@ -46,9 +46,9 @@ export default function CardComponent() {
                 width={50}
                 height={50}
                 alt={card.language}
-                className="object-contain rounded-md pl-3"
+                className="object-fill rounded-md"
               ></Image>
-              <div className=" flex flex-col items-center">
+              <div className=" flex flex-col items-center gap-2">
                 {" "}
                 <CardTitle className="text-sm"> {card.language} </CardTitle>
                 <Badge variant="outline">{card.techCategory} </Badge>
