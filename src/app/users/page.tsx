@@ -23,6 +23,7 @@ import {
 } from "@/components/ui/sheet";
 import { BadgeCheck, Candy } from "lucide-react";
 import React from "react";
+import DemoPage from "../payment/page";
 
 const userProfile = () => {
   return (
@@ -120,7 +121,13 @@ const userProfile = () => {
             <CardComponent />
           </div>
         </div>
-        <div className="flex flex-col w-2/3 bg-primary-foreground"> </div>
+        <div className="flex flex-col w-2/3 bg-primary-foreground">
+          {" "}
+          <div className="px-10 mt-10">
+            {" "}
+            <DemoPage />
+          </div>
+        </div>
       </div>
     </>
   );
